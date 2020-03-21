@@ -1,0 +1,44 @@
+[           	 
+			{
+		 		"rule" : "EAAS 1",
+         		"product":"Red Hat Fuse",
+		   		"version":"6.3.0",
+		   		"summary":" So legen Sie Ports von Pods frei",
+		   		"description":"So legen Sie Ports von Pods frei",
+		   		"severity":"4 (Low)",
+		   		"type":"Account / Customer Service Request",
+		   		"contactSsoUsername":"brian.macleod@oit.gatech.edu",
+		   		"entitlement":{"sla":"PREMIUM"}
+		   		},	
+		   		{
+		 		"rule" : "EAAS 2",
+         		"product":"Red Hat Fuse",
+		   		"version":"6.2.1",
+		   		"summary":" 如何从Pod暴露端口",
+		   		"description":"如何从Pod暴露端口",
+		   		"severity":"4 (Low)",
+		   		"type":"Account / Customer Service Request",
+		   		"contactSsoUsername":"brian.macleod@oit.gatech.edu",
+		   		"entitlement":{"sla":"PREMIUM"}
+		   		},{
+		 		"rule" : "EAAS 3",
+         		"product":"Red Hat Fuse",
+		   		"version":"7.0",
+		   		"summary":" Comment exposer les ports des pods",
+		   		"description":"Comment exposer les ports des pods",
+		   		"severity":"4 (Low)",
+		   		"type":"Account / Customer Service Request",
+		   		"contactSsoUsername":"brian.macleod@oit.gatech.edu",
+		   		"entitlement":{"sla":"PREMIUM"}
+		   		},{
+		 		"rule" : "EAAS 4",
+         		"product":"Red Hat Fuse",
+		   		"version":"6.2.1",
+		   		"summary":" Comment exposer les ports des pods",
+		   		"description":"Comment exposer les ports des pods",
+		   		"severity":"4 (Low)",
+		   		"type":"Account / Customer Service Request",
+		   		"contactSsoUsername":"brian.macleod@oit.gatech.edu",
+		   		"entitlement":{"sla":"PREMIUM"}
+		   		}
+]

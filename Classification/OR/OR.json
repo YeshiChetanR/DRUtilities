@@ -1,0 +1,95 @@
+{
+"Login":
+	{
+	"username":"id;username",
+	"password":"id;password",
+	"submitButton":"id;submit"
+	},
+
+"CTA":
+	{
+	"newCTAButton":"xpath;//button/span[contains(text(),'New CTA')]",
+	"ctaTitle":"xpath;//input[@label='Title']",
+	"ctaCustomer":"xpath;//div[@class='createCtaSidebarRow']/div/div[@class='account-select']/div/div/input[1]",
+	"ctaCustomerValue":"xpath;//li/a/span[text()='BANK OF AMERICA (54545)']",
+	"ctaType":"xpath;//span[text()='Select Type']",
+	"ctaTypeValue":"xpath;//li/a[text()='Event']",
+	"ctaReason":"xpath;//span[text()='Select Reason']",
+	"ctaDueDate":"xpath;//input[@placeholder='MM/DD/YYYY']",
+	"ctaReasonValue":"xpath;//li/a[text()='Customer Concern']",
+	"ctaPriority":"xpath;//span[text()='Select Priority']",
+	"ctaPriorityValue":"xpath;//li/a[text()='Medium']",
+	"ctaStatus":"xpath;//span[text()='Status']/parent::label/parent::div/div/div/span",
+	"ctaStatusValue":"xpath;//li/a[text()='At Risk']",
+	"ctaDescription":"xpath;//textarea[@placeholder='Enter CTA Description']",
+	"ctaSaveButton":"xpath;//button[text()='Save']",
+	"ctaEmptySpace":"xpath;//label/span[text()='Due Date']",
+	"ctaSaveAndNew":"xpath;//button[@id='create_cta_saveAndNew_button']"
+
+	},
+
+"Workbench":
+	{
+	"header":"xpath;//h4/span[text()='Workbench']"
+	},
+
+"Message":
+	{
+	"text":"xpath;//div[@class='noty_body']"
+	},
+
+
+"Customer":
+	{
+	"header":"xpath;//div[@id='sectionNav']/ul/li/a/span[text()='Summary']",
+	"nameHeading":"xpath;//div[@class='customerNameHeader']/div/h4"
+	},
+
+"Search":
+	{
+	"textarea":"xpath;//div[@class='account-select']/div/div/input[1]"
+	},
+	
+"SearchSuggestions":
+	{
+	"option1":"xpath;//div[@class='account-select']/div/ul/li[1]/a/span"
+	},
+	
+"NewTask":
+	{
+	"ctaDetails":"xpath;//body/div[@id='csm-main-content']/div[@class='app-container']/main[@class='app-content']/div[@class='container-fluid']/div/div[@class='p-b-4']/div[@class='f1kfkqr0']/div/div[@class='list-view-pf-custom']/div[@class='list-group list-view-pf list-view-pf-view ftswafz']/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1][1]",
+	"taskbutton":"xpath;//a[@id='cta-details-tab-4']",
+	"newtask":"xpath;//div[@class='col-md-12']//div[@class='pull-right']//button[@type='button']",
+	"taskTitle":"xpath;//input[@label='Group Name']",
+	"dueDate":"xpath;//input[@placeholder='MM/DD/YYYY']",
+	"selectPriority":"xpath;//span[contains(text(),'Select Priority')]",
+	"priority":"xpath;//div[@class='input-style-dropdown dropdown open']//ul[@class='dropdown-menu']//li[@role='presentation']//a[@class='f1hykqr2'][contains(text(),'Medium')]",
+	"description":"xpath;//textarea[@placeholder='Enter Task Description']",
+	"savebutton":"xpath;//button[text()='Save']",
+	"successMessage":"xpath;//div[@class='noty_body']"
+	},
+	
+"Objective" :
+	{
+		"newObjectiveButton":"xpath;//div[@class='fmld04h f9a13de m-b-4']//button[@type='button']",
+		"customerBusinessObjective":"xpath;//input[@label='Group Name']",
+		"objectiveType":"xpath;//span[text()='Select Objective Type']",
+		"selectObjective":"xpath;//a[@class='f1hykqr2'][text()='Communication Plan']",
+		"businessPriority":"xpath;//span[text()='Select Business Priority']",
+		"selectBusiness":"xpath;//a[@class='f1hykqr2'][text()='Low']",
+		"status":"xpath;//span[contains(text(),'Select Status')]",
+		"selectStatus":"xpath;//a[text()='At Risk']",
+		"riskComments":"xpath;//textarea[@placeholder='Enter Risk Comments']",
+		"startDate":"xpath;/html/body/div[@id='csm-main-content']/div[@class='app-container']/main[@class='app-content']/div[@class='container-fluid']/div/div/div/div[@class='row']/div[@class='f45h col-md-12']/section[@id='successPlan']/div[@class='row-cards-pf row']/div[@class='col-md-12']/div[@class='f45h {props.cardClass} card-pf']/div[@class='card-pf-body']/div/div/div[@class='fmld04h f9a13de m-b-4']/aside[@class='f7urfbj']/div/div[@class='createCtaContent']/div[@class='createCtaSidebarRow']/div[@class='d-flex']/span[@id='start-date-datepicker']/span[@class='input-group']//input[1]",
+		"selectStartDate":"xpath;//td[@data-day='6']",
+		"dueDate":"xpath;/html/body/div[1]/div/main/div/div/div/div[2]/div/div[2]/section[2]/div/div/div/div[2]/div/div[2]/div[5]/aside/div/div/div[8]/div/span[2]/span/input[1]",
+		"selectDueDate":"xpath;//td[@data-day='31']",
+		"save":"xpath;//button[text()='Save']",
+		"success":"xpath;//div[@class='f1hykqr2'][contains(text(),'webede')]"
+	}
+	
+	
+}
+
+
+

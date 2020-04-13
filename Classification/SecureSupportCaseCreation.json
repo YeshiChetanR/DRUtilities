@@ -1,0 +1,18 @@
+curl -X POST \
+  'https://access.stage.redhat.com/secure-support/rs/cases?redhat_client=secure_case_management_1.0&account_number=5487648' \
+  -H 'authorization: Basic cmhuLWdzNC10ZnJhemllcjpyZWRoYXQ=' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 8db4dda6-4619-0634-6cdf-e266b8c0e5ef' \
+  -d '{
+"product": "Red Hat Virtualization",
+"version": "4.2",
+"summary": "This is aTest Case",
+"description": "This is aTest Case",
+"severity": "4 (Low)",
+"type": "Certification",
+"accountNumber": "5487648",
+"contactSsoUsername": "rhn-gs4-tfrazier",
+"entitlement": {}
+}
+'

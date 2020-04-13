@@ -1,0 +1,20 @@
+curl -X POST \
+  https://gss-air.corp.qa.redhat.com/ion/diag/eaas/edmundabbott/v2 \
+  -H 'accept: application/json' \
+  -H 'authorization: Basic cmhuLXN1cHBvcnQtY3llc2hpOnJlZGhhdA==' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: d7b11d68-baac-445e-33da-1017eb84d68d' \
+  -d '{
+"caseType": {
+"product": "Red Hat Virtualization",
+"version": "4.3"
+},
+"fields": [
+"title",
+"cta",
+"description",
+"rule_type",
+"rule_sub_type"
+]
+}'
